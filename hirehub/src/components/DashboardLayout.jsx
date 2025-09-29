@@ -55,12 +55,7 @@ export default function DashboardLayout({
               {/* Sidebar component */}
               <div className="relative flex grow flex-col gap-y-5 overflow-y-auto bg-gray-900 px-6 pb-4 ring-1 ring-white/10 dark:before:pointer-events-none dark:before:absolute dark:before:inset-0 dark:before:bg-black/10">
                 <div className="relative flex h-16 shrink-0 items-center">
-                  <img
-                    alt="HireHub"
-                    src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
-                    className="h-8 w-auto"
-                  />
-                  <span className="ml-2 text-xl font-bold text-white">HireHub</span>
+                  <span className="text-2xl font-bold text-white">HireHub</span>
                 </div>
                 <nav className="relative flex flex-1 flex-col">
                   <ul role="list" className="flex flex-1 flex-col gap-y-7">
@@ -104,12 +99,7 @@ export default function DashboardLayout({
         <div className="hidden bg-gray-900 ring-1 ring-white/10 lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col">
           <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-black/10 px-6 pb-4">
             <div className="flex h-16 shrink-0 items-center">
-              <img
-                alt="HireHub"
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
-                className="h-8 w-auto"
-              />
-              <span className="ml-2 text-xl font-bold text-white">HireHub</span>
+              <span className="text-2xl font-bold text-white">HireHub</span>
             </div>
             <nav className="flex flex-1 flex-col">
               <ul role="list" className="flex flex-1 flex-col gap-y-7">
